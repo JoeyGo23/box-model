@@ -2,4 +2,8 @@ body {
   font-family: Arial;
   font-size: 18px;
 }
+article { background: blue; border-bottom: 10px solid gray; }
+#favorite { background: pink;}
 
+header { border-bottom: solid 10px black;
+          padding-bottom: 10px;}
