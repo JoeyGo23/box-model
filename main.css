@@ -1,9 +1,37 @@
 body {
-  font-family: Arial;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
-article { background: blue; border-bottom: 10px solid gray; }
-#favorite { background: pink;}
+article { border-bottom: 10px solid gray; }
 
 header { border-bottom: solid 10px black;
-          padding-bottom: 10px;}
+          padding-bottom: 10px; }
+
+h1 {
+  text-shadow: 5px 5px 5px #999;
+  color: red;
+}
+
+img { float: left; margin: 0px 30px 30px 0px;}
+nav { float: right; margin: 0px 0px;}
+
+.fix { clear: both;}
+
+aside {
+  float: right;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px #333;
+  padding: 12px;
+  margin-top: 12px;
+  margin-right: 10px;
+
+  background: #627d4d; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #627d4d 0%, #0a284c 59%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#627d4d), color-stop(59%,#0a284c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #627d4d 0%,#0a284c 59%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #627d4d 0%,#0a284c 59%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #627d4d 0%,#0a284c 59%); /* IE10+ */
+  background: linear-gradient(135deg,  #627d4d 0%,#0a284c 59%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#0a284c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
